@@ -1,1 +1,120 @@
 @import url("1000hours.css");
+@import url("reset.css");
+img{
+    width:100%;
+}
+*{
+    border-style: none;
+}
+body{
+    background-color: #5B2386;
+}
+.blind{
+    position: absolute;
+    width: 1px;
+     height: 1px;
+     clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.wrapper{
+    width: 765px;
+    margin: 120px auto;
+}
+#app, footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family:'GmarketSansMedium';
+}
+.tit-timelaw{
+    width:564px;
+    height: 265px;
+    padding-top: 75px;
+    box-sizing: border-box;
+    background-image: url(../img/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img-txt{
+    width: 486px;
+    margin-top: 66px;
+}
+.quotes{
+    width:493px;
+    margin-top: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-quotes{
+    width:46px;
+}
+.txt-desc{
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.tit-desc{
+    font-size: 24px;
+    font-weight: 700;
+    font-family:'GmarketSansBold';
+}
+.cont-inp{
+    margin-top: 102px;
+    font-size: 24px;
+    color: white;
+}
+.cont-inp-style{
+    padding: 15px 40px;
+    width:160px;
+    margin: 10px 5px;
+    border-radius: 8px;
+    color:#BABCBE;
+    font-size: 24px;
+    font-family:'GmarketSansMedium';
+    text-align: center;
+}
+.btn-exc,.btn-go,.btn-share{
+    margin-top: 115px;
+    padding: 20px 50px;
+    border-radius: 50px;
+    background-color: #FCEE21;
+    font-size: 24px;
+    font-weight: 700;
+    color: #5B2386;
+    font-family:'GmarketSansBold';
+}
+.btn-pointer{
+    width:50px;
+    position: relative;
+    top:30px;
+}
+.cont-result{
+    margin-top: 147px;
+}
+.cont-result-style{
+    font-size: 24px;
+    color:white;
+}
+.btn-share{
+    background-color: white;
+    margin-left: 10px;
+}
+/* footer */
+.cont-footer{
+    margin-top: 136px;
+    font-family: 'Noto Sans KR',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: white;
+}
+.footer-logo{
+    width:125px;
+}
+.txt-footer{
+    margin-top: 20px;
+}
