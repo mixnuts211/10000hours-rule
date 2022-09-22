@@ -54,14 +54,14 @@ body{
 .txt-desc{
     color: white;
     font-size: 18px;
-    line-height: 24px;
-    font-weight: 400;
+    line-height: 27px;
 }
 .tit-desc{
     font-size: 24px;
     font-family:'GmarketSansBold';
 }
 .cont-inp{
+    position: relative;
     margin-top: 102px;
     font-size: 24px;
     color: white;
@@ -73,7 +73,6 @@ body{
     border-radius: 8px;
     font-size: 24px;
     font-family:inherit;
-    /* 속성의 상속은 직계까지 */
     text-align: center;
 }
 .btn-exc,.btn-go,.btn-share{
@@ -87,8 +86,8 @@ body{
 }
 .btn-pointer{
     width:50px;
-    position: relative;
-    top:30px;
+    position: absolute;
+    bottom:-20px;
 }
 .cont-result{
     margin-top: 147px;
@@ -98,7 +97,6 @@ body{
     align-items: center;
     font-size: 24px;
     color:white;
-    /* 선택자를 이용하는것이 더 나은가? */
 }
 .cont-result-style strong{
     margin: 0 10px;
@@ -109,6 +107,7 @@ body{
     background-color: white;
     margin-left: 10px;
 }
+
 /* footer */
 .cont-footer{
     margin-top: 136px;
